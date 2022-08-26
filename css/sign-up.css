@@ -1,0 +1,64 @@
+body {
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	grid-template-areas: "header" "main" "footer";
+}
+.header-container {
+	grid-area: header;
+}
+main {
+	grid-area: main;
+	padding: 10px 200px;
+	display: grid;
+	place-items: center;
+}
+h2 {
+	text-align: center;
+}
+form,
+.form-div {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+}
+form {
+	gap: 10px;
+	color: #1f2937;
+}
+footer {
+	grid-area: footer;
+}
+input,
+select,
+option {
+	padding: 10px 16px;
+	border-radius: 4px;
+	outline: 0;
+	border: 1px solid #1f2937;
+}
+option {
+	font-size: 18px;
+}
+input:focus,
+select:focus {
+	border-color: #86b7fe;
+	box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.25);
+}
+input[type="checkbox"] {
+	width: 15px;
+	height: 15px;
+}
+small {
+	color: #3882f6;
+}
+img {
+	height: 240px;
+}
+.form-div-inline {
+	display: flex;
+	gap: 5px;
+}
+.form-div-inline p {
+	margin: 0;
+}

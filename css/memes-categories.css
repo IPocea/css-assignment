@@ -1,0 +1,44 @@
+body {
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	grid-template-areas: "header" "main" "footer";
+}
+main {
+	grid-area: main;
+	padding: 10px 200px;
+	color: #1f2937;
+}
+figure {
+	margin: 0;
+	cursor: pointer;
+}
+figcaption {
+	font-family: "Roboto Bold", sans-serif;
+	font-size: 24px;
+	margin-bottom: 2px;
+}
+.header-container {
+	grid-area: header;
+}
+.cateogories-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 20px;
+}
+.post-container {
+	width: 23%;
+}
+.post-container img {
+	width: 100%;
+	height: 300px;
+	border: 3px solid #3882f6;
+	border-radius: 5px;
+	opacity: 0.6;
+	box-shadow: -10px 0px 10px #206ae0;
+}
+.post-container img:hover {
+	opacity: 1;
+	box-shadow: 0 0 10px #206ae0;
+}

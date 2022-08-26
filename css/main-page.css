@@ -1,0 +1,110 @@
+.second-container {
+	color: #1f2937;
+}
+.second-container h4 {
+	text-align: center;
+	font-family: "Roboto Bold", sans-serif;
+	font-size: 36px;
+}
+.photos-container {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+.photos-container figure {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	gap: 10px;
+}
+.photos-container figure img,
+.photos-container figure figcaption {
+	width: 130px;
+	text-align: center;
+	font-family: "Roboto Light";
+}
+.photos-container figure img {
+	height: 130px;
+	border-radius: 5px;
+	border: 3px solid #3882f6;
+}
+.third-container {
+	background-color: #e5e7eb;
+	padding: 50px 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Roboto Light Italic";
+	font-size: 36px;
+}
+.third-container div {
+	width: 25%;
+}
+.third-container blockquote {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+.third-container p {
+	margin: 0;
+}
+.third-container blockquote p:last-child {
+	align-self: flex-end;
+	font-family: "Roboto Regular", sans-serif;
+}
+.fourth-container {
+	padding: 50px 100px;
+}
+.fourth-wrapper {
+	background-color: #3882f6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 100px;
+	padding: 40px 80px;
+	border-radius: 5px;
+}
+.fourth-left-side h3,
+.fourth-left-side p {
+	margin: 0;
+}
+.fourth-left-side p {
+	font-family: "Roboto Thin", sans-serif;
+}
+.fourth-right-side button {
+	border: 2px solid #f9faf8;
+}
+@media screen and (min-width: 1324px) {
+	.first-container div:last-child img {
+		height: 250px;
+	}
+}
+@media screen and (min-width: 1445px) {
+	.photos-container figure img,
+	.photos-container figure figcaption {
+		width: 150px;
+	}
+	.photos-container figure img {
+		height: 150px;
+	}
+}
+@media screen and (min-width: 1579px) {
+	.first-container div:last-child img {
+		height: 200px;
+	}
+}
+@media screen and (min-width: 1661px) {
+	.first-container div:last-child img {
+		height: 190px;
+	}
+	.photos-container figure img,
+	.photos-container figure figcaption {
+		width: 200px;
+	}
+	.photos-container figure img {
+		height: 200px;
+	}
+}
