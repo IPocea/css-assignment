@@ -35,11 +35,11 @@ nav {
 	display: flex;
 	gap: 20px;
 }
-header a {
+header section:first-child a {
 	text-decoration: none;
 }
-header a:hover,
-header a:focus {
+header section:first-child a:hover,
+header section:first-child a:focus {
 	opacity: 0.8;
 }
 footer {
@@ -59,34 +59,34 @@ footer {
 	flex-direction: column;
 	gap: 50px;
 }
-.header-container {
+header {
 	background-color: #1f2937;
 	padding: 10px 200px;
 }
-.header-container h2 {
+header h2 {
 	font-family: "Roboto Bold";
 	font-size: 48px;
 	margin: 0;
 }
-.header-container p {
+header p {
 	margin-top: 5px;
 }
-header,
-.header-container div:last-child {
+header section:first-child,
+.header-container section:last-child {
 	display: flex;
 	justify-content: space-between;
 }
-.header-container div:last-child {
+.header-container section:last-child {
 	gap: 20px;
 	align-items: flex-start;
 	margin: 80px 0;
 }
-.header-container div:last-child img {
+.header-container section:last-child img {
 	width: 100%;
 	height: 260px;
 }
-.header-container div:last-child div,
-.header-container div:last-child img {
+.header-container section:last-child div,
+.header-container section:last-child img {
 	width: 50%;
 }
 .primary {
@@ -133,7 +133,7 @@ header,
 	padding: 8px 12px;
 	background-color: #e5e7eb;
 	color: #1f2937;
-	top: -50px;
+	top: 30px;
 	right: 0px;
 }
 #dropdown-content p span {

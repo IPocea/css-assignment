@@ -38,9 +38,6 @@
 	font-family: "Roboto Light Italic";
 	font-size: 36px;
 }
-.third-container div {
-	width: 25%;
-}
 .third-container blockquote {
 	display: flex;
 	flex-direction: column;
@@ -78,7 +75,7 @@
 	border: 2px solid #f9faf8;
 }
 @media screen and (min-width: 1324px) {
-	.first-container div:last-child img {
+	header section:last-child img {
 		height: 250px;
 	}
 }
@@ -92,12 +89,12 @@
 	}
 }
 @media screen and (min-width: 1579px) {
-	.first-container div:last-child img {
+	header section:last-child img {
 		height: 200px;
 	}
 }
 @media screen and (min-width: 1661px) {
-	.first-container div:last-child img {
+	header section:last-child img {
 		height: 190px;
 	}
 	.photos-container figure img,

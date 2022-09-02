@@ -17,7 +17,7 @@ h2 {
 	text-align: center;
 }
 form,
-.form-div {
+.form-section {
 	display: flex;
 	flex-direction: column;
 	width: 500px;
@@ -55,10 +55,10 @@ small {
 img {
 	height: 240px;
 }
-.form-div-inline {
+.form-section-inline {
 	display: flex;
 	gap: 5px;
 }
-.form-div-inline p {
+.form-section-inline p {
 	margin: 0;
 }

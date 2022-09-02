@@ -11,12 +11,12 @@
 </head>
 
 <body>
-  <div class="header-container">
-    <header>
+  <header>
+    <section>
       <a class="logo primary" href="../index.html">Memes Mania</a>
       <nav>
         <a class="secondary" href="./about-memes.html">About Memes</a>
-        <a class="secondary" href="#">Memes Categories</a>
+        <a class="secondary" href="./memes-categories.html">Memes Categories</a>
         <span class="dropdown">
           <a class="secondary" href="#">Meme Generator</a>
           <div id="dropdown-content">
@@ -25,14 +25,14 @@
           </div>
         </span>
       </nav>
-    </header>
-  </div>
+    </section>
+  </header>
   <main>
     <form>
       <h2>Join us in few steps</h2>
       <img src="../images/meme-mania-join-us.gif"
         alt="A Meme with Dr. Evil saying come join us">
-      <div class="form-div">
+      <section class="form-section">
         <label for="signup-title">Title</label>
         <select name="title" id="signup-title">
           <option disabled selected value="select">Select a title</option>
@@ -40,33 +40,33 @@
           <option value="ms">Ms.</option>
           <option value="mr">Mr.</option>
         </select>
-      </div>
-      <div class="form-div">
+      </section>
+      <section class="form-section">
         <label for="signup-username">Username</label>
         <input type="text" name="username" id="signup-username">
-      </div>
-      <div class="form-div">
+      </section>
+      <section class="form-section">
         <label for="signup-email">Email</label>
         <input type="email" name="email" id="signup-email">
-      </div>
-      <div class="form-div">
+      </section>
+      <section class="form-section">
         <label for="signup-password">Password</label>
         <input type="password" name="password" id="signup-password">
         <small>Minimum 6 characters</small>
-      </div>
-      <div class="form-div">
+      </section>
+      <section class="form-section">
         <label for="singup-password-confirmation">Confirm Password</label>
         <input type="password" name="passwordConfirmation"
           id="singup-password-confirmation">
-      </div>
-      <div class="form-div-inline">
+      </section>
+      <section class="form-section-inline">
         <input type="checkbox" name="" id="">
         <p>I want to receive news about Meme Mania Community</p>
-      </div>
-      <div class="form-div-inline">
+      </section>
+      <section class="form-section-inline">
         <input type="checkbox" name="" id="">
         <p>I accept the terms and privacy policy</p>
-      </div>
+      </section>
       <button class="btn primary">Sign Up</button>
     </form>
   </main>
